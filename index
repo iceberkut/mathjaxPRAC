@@ -1,0 +1,38 @@
+<html>
+<head>
+
+<script src='https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.2/MathJax.js?config=TeX-MML-AM_CHTML'></script>
+
+</head>
+
+<body>
+
+\[ u = \frac{2x+7}{2}\ ,   dv = \sin{2x}⠀dx.\]
+<br>
+\[ Тогда,  du = dx ,   v = \frac{cos2x}{2}.\]
+<br>
+\[\int \frac{2x+7}{2}⠀sin2x⠀dx =\]
+<br>
+
+\[=\frac{2x+7}{2}\  \left(-\frac{cos2x}{2} \right)\ -\int \left(-\frac{cos2x}{2} \right)dx=\]
+
+\[=\frac{(2x+7)cos2x}{4}\ + \frac{sin2x}{4}+C.\]
+
+<br>
+\begin{equation*}
+AB =
+\begin{pmatrix}
+2 & 4 & 1  \\
+8 & 16 & 4 \\
+6 & 12 & 3 
+\end{pmatrix}
+\end{equation*}
+
+</body>
+</html>
+
+<script>
+var Element = document.getElementById("formula");
+MathJax.Hub.Queue(["Typeset",MathJax.Hub,Element]);
+
+</script>
